@@ -1,3 +1,34 @@
+body {
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+	font-size: 12px;
+	margin: 0 auto;
+	background-image: url('https://static.pexels.com/photos/34587/pexels-photo-large.jpg');
+	background-size: 100vw;
+}
+
+
+button {
+	height: 30px;
+	padding: 10px;
+	border-radius: 10px;
+	min-width: 30px;
+}
+
+.btn-info {
+	margin: 20px;
+}
+
+.panel {
+	width: 30%;
+	margin-right: 2%;
+	padding: 10px;
+	display: inline-block;
+}
+
+li {
+	margin-top: 2px;
+}
 .card-placeholder {
 
 	background: red;
