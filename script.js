@@ -53,7 +53,7 @@ $(function() {
 		removeColumn: function() {
 			this.$element.remove();
 		}
-	}
+	};
 	/* Create card */
 	function Card(description) {
 		var self = this;
@@ -82,7 +82,7 @@ $(function() {
 		removeCard: function() {
 			this.$element.remove();
 		}
-	}
+	};
 	/* Create column */
 	var board = {
 		name: "Kanban Board",
@@ -93,7 +93,7 @@ $(function() {
 				initSortable();
 			}
 		}
-	}
+	};
 	
 	function initSortable() {
 		$('.column-card-list').sortable({
