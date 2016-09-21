@@ -2,17 +2,20 @@ $(function() {
 	
 	/* Create random string*/
 	function randomString() {
+
 		var chars = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ',
 			str = '',
 			i = 0;
 		for(i = 0; i < 10; i++) {
 			str += chars[Math.floor(Math.random() * chars.length)];
+
 		}
 		
 		return str;
 	}
 	/* Create column*/
 	function Column(name) {
+
 		var self = this;
 		
 		this.id = randomString();
@@ -101,6 +104,10 @@ $(function() {
 			placeholder: 'card-placeholder'
 		}).disableSelection();
 	}
+
+	$( "#sortable" ).sortable();
+    $( "#sortable" ).disableSelection();
+
 	/* Add column*/
 	$('.create-column').click(function() {
 		var name = prompt('Write column name'),

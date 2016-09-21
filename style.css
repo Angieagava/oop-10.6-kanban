@@ -7,7 +7,6 @@ body {
 	background-size: 100vw;
 }
 
-
 button {
 	height: 30px;
 	padding: 10px;
@@ -28,9 +27,16 @@ button {
 
 li {
 	margin-top: 2px;
+	min-height: 20px;
 }
-.card-placeholder {
 
-	background: red;
-	
+.column-card-list,
+.list-group
+.ui-sortable {
+	min-height: 20px;
 }
+
+.card-placeholder {
+	background-color: #ffc125;
+}
+
